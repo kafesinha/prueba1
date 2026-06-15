@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es" class="bg-crema">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto — tuBazar</title>
+  <meta name="description" content="Ponte en contacto con tuBazar. Estamos aquí para ayudarte con tus pedidos, envíos y cualquier consulta.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="contenedor nav">
+      <a href="index.html" class="logo">tu<span>Bazar</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+        <li><a href="contacto.html" class="activo">Contacto</a></li>
+        <li><a href="login.html">Cuenta</a></li>
+      </ul>
+      <div class="nav-acciones">
+        <a href="carrito.html" class="carrito-link">Carrito <span class="carrito-contador">0</span></a>
+        <button class="menu-toggle" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="seccion">
+    <div class="contenedor">
+      <div class="titulo-seccion">
+        <p class="eyebrow">Estamos para ayudarte</p>
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta sobre nuestros productos o tu pedido? Escríbenos y te responderemos lo antes posible.</p>
+      </div>
+
+      <div class="contacto-grid">
+        <div class="contacto-info">
+          <h2>Información</h2>
+          <p>Nuestro equipo de atención está disponible de lunes a sábado para resolver cualquier consulta.</p>
+
+          <div class="contacto-dato">
+            <span class="ico">✉</span>
+            <div>
+              <strong>Correo</strong>
+              <span>cedillo.andres.martinez@gmail.com</span>
+            </div>
+          </div>
+          <div class="contacto-dato">
+            <span class="ico">☎</span>
+            <div>
+              <strong>Teléfono</strong>
+              <span>+52 55 8423 3064</span>
+            </div>
+          </div>
+          <div class="contacto-dato">
+            <span class="ico">⌖</span>
+            <div>
+              <strong>Tienda física</strong>
+              <span>San Ángel, CDMX</span>
+            </div>
+          </div>
+          <div class="contacto-dato">
+            <span class="ico">⏱</span>
+            <div>
+              <strong>Horario</strong>
+              <span>Lun – Sáb · 10:00 a 20:00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-wrap ancho" style="margin:0;">
+          <div class="mensaje-ok">¡Mensaje enviado! Gracias por escribirnos, te responderemos pronto.</div>
+          <form data-feedback novalidate>
+            <div class="form-grid">
+              <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+              </div>
+              <div class="campo">
+                <label for="email-c">Correo</label>
+                <input type="email" id="email-c" name="email" placeholder="tucorreo@ejemplo.com" required>
+              </div>
+            </div>
+            <div class="campo">
+              <label for="asunto">Asunto</label>
+              <input type="text" id="asunto" name="asunto" placeholder="¿En qué podemos ayudarte?" required>
+            </div>
+            <div class="campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-dorado btn-bloque">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="contenedor">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="logo">tu<span style="color:var(--dorado)">Bazar</span></div>
+          <p>Moda elegante y atemporal. Confeccionamos piezas pensadas para durar, con un estilo minimalista y sofisticado.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Tienda</h4>
+          <ul>
+            <li><a href="tienda.html?cat=Abrigos">Abrigos</a></li>
+            <li><a href="tienda.html?cat=Vestidos">Vestidos</a></li>
+            <li><a href="tienda.html?cat=Accesorios">Accesorios</a></li>
+            <li><a href="tienda.html">Ver todo</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Ayuda</h4>
+          <ul>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="contacto.html">Envíos</a></li>
+            <li><a href="contacto.html">Devoluciones</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Cuenta</h4>
+          <ul>
+            <li><a href="login.html">Iniciar sesión</a></li>
+            <li><a href="carrito.html">Mi carrito</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© <span class="anio">2026</span> tuBazar. Todos los derechos reservados.</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es" class="bg-crema">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tuBazar — Moda elegante y atemporal</title>
+  <meta name="description" content="tuBazar: tienda de moda elegante y minimalista. Descubre abrigos, vestidos, camisas y accesorios de diseño atemporal.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="contenedor nav">
+      <a href="index.html" class="logo">tu<span>Bazar</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="activo">Inicio</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="login.html">Cuenta</a></li>
+      </ul>
+      <div class="nav-acciones">
+        <a href="carrito.html" class="carrito-link">
+          Carrito <span class="carrito-contador">0</span>
+        </a>
+        <button class="menu-toggle" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="contenedor">
+    <div class="hero">
+      <div class="hero-texto">
+        <p class="eyebrow">Colección 2026</p>
+        <h1>Elegancia que perdura en el tiempo</h1>
+        <p>Descubre prendas atemporales confeccionadas con materiales nobles. Moda minimalista para quienes valoran el detalle y la sofisticación.</p>
+        <div class="hero-acciones">
+          <a href="tienda.html" class="btn btn-dorado">Explorar colección</a>
+          <a href="#destacados-seccion" class="btn btn-outline">Ver destacados</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="assets/img/hero.png" alt="Modelo con abrigo beige elegante">
+      </div>
+    </div>
+  </section>
+
+  <!-- Valores -->
+  <section class="valores seccion">
+    <div class="contenedor valores-grid">
+      <div class="valor">
+        <h3>Materiales nobles</h3>
+        <p>Lana, lino y cashmere seleccionados por su calidad y durabilidad.</p>
+      </div>
+      <div class="valor">
+        <h3>Diseño atemporal</h3>
+        <p>Piezas que trascienden tendencias y acompañan cada temporada.</p>
+      </div>
+      <div class="valor">
+        <h3>Envío gratuito</h3>
+        <p>Entrega sin coste en todos los pedidos superiores a $150.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destacados -->
+  <section class="seccion" id="destacados-seccion">
+    <div class="contenedor">
+      <div class="titulo-seccion">
+        <p class="eyebrow">Selección</p>
+        <h2>Piezas destacadas</h2>
+        <p>Una muestra de nuestras prendas más representativas, elegidas por su elegancia y versatilidad.</p>
+      </div>
+      <div class="productos-grid" id="destacados"></div>
+      <div style="text-align:center; margin-top:48px;">
+        <a href="tienda.html" class="btn btn-outline">Ver toda la tienda</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta seccion">
+    <div class="contenedor">
+      <h2>Únete a tuBazar</h2>
+      <p>Recibe acceso anticipado a nuevas colecciones y ofertas exclusivas para miembros.</p>
+      <a href="login.html" class="btn btn-dorado">Crear cuenta</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="contenedor">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="logo">tu<span style="color:var(--dorado)">Bazar</span></div>
+          <p>Moda elegante y atemporal. Confeccionamos piezas pensadas para durar, con un estilo minimalista y sofisticado.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Tienda</h4>
+          <ul>
+            <li><a href="tienda.html?cat=Abrigos">Abrigos</a></li>
+            <li><a href="tienda.html?cat=Vestidos">Vestidos</a></li>
+            <li><a href="tienda.html?cat=Accesorios">Accesorios</a></li>
+            <li><a href="tienda.html">Ver todo</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Ayuda</h4>
+          <ul>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="contacto.html">Envíos</a></li>
+            <li><a href="contacto.html">Devoluciones</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Cuenta</h4>
+          <ul>
+            <li><a href="login.html">Iniciar sesión</a></li>
+            <li><a href="carrito.html">Mi carrito</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © <span class="anio">2026</span> tuBazar. Todos los derechos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
